@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F84090F1CC44AB800E8AA96 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F84090E1CC44AB800E8AA96 /* ResourcePath.mm */; };
+		4F8409121CC44AB800E8AA96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8409111CC44AB800E8AA96 /* main.cpp */; };
+		4F8409191CC44AB800E8AA96 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F8409181CC44AB800E8AA96 /* sansation.ttf */; };
+		4F8409371CC562FD00E8AA96 /* Gator_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8409361CC562FD00E8AA96 /* Gator_logo.png */; };
+		4F84093C1CC573F400E8AA96 /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F84093A1CC573F400E8AA96 /* entity.cpp */; };
+		4F84093F1CC575D400E8AA96 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F84093D1CC575D400E8AA96 /* player.cpp */; };
+		4F8409421CC5CC1400E8AA96 /* bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8409401CC5CC1300E8AA96 /* bullet.cpp */; };
+		4F8409451CC68A1E00E8AA96 /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8409431CC68A1E00E8AA96 /* enemy.cpp */; };
+		4F8409491CC6B74400E8AA96 /* GatorPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8409481CC6B74400E8AA96 /* GatorPlayer.png */; };
+		4F84094D1CC6C25300E8AA96 /* Enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F84094C1CC6C25300E8AA96 /* Enemy.png */; };
+		4F84094F1CC6C79C00E8AA96 /* Field.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F84094E1CC6C79C00E8AA96 /* Field.jpg */; };
+		4F8409521CC6CB4500E8AA96 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8409501CC6CB4500E8AA96 /* random.cpp */; };
+		4F8409541CC6FC9900E8AA96 /* GameOver1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8409531CC6FC9900E8AA96 /* GameOver1.png */; };
+		4F8409561CC7027E00E8AA96 /* football.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8409551CC7027E00E8AA96 /* football.png */; };
+		4F8409651CC7276F00E8AA96 /* StartScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8409641CC7276F00E8AA96 /* StartScreen.png */; };
+		4FA673731CFD28E8008B17FF /* HighScore.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4FA673721CFD28E8008B17FF /* HighScore.txt */; };
+		5B0939A01E5BF72700AAD63B /* font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B09399F1E5BF72700AAD63B /* font.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F8409091CC44AB800E8AA96 /* GatorGlory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GatorGlory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F84090D1CC44AB800E8AA96 /* GatorGlory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GatorGlory-Info.plist"; sourceTree = "<group>"; };
+		4F84090E1CC44AB800E8AA96 /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		4F8409101CC44AB800E8AA96 /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		4F8409111CC44AB800E8AA96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F8409181CC44AB800E8AA96 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
+		4F8409361CC562FD00E8AA96 /* Gator_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gator_logo.png; sourceTree = "<group>"; };
+		4F84093A1CC573F400E8AA96 /* entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = entity.cpp; sourceTree = "<group>"; };
+		4F84093B1CC573F400E8AA96 /* entity.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = entity.hpp; sourceTree = "<group>"; };
+		4F84093D1CC575D400E8AA96 /* player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		4F84093E1CC575D400E8AA96 /* player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
+		4F8409401CC5CC1300E8AA96 /* bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bullet.cpp; sourceTree = "<group>"; };
+		4F8409411CC5CC1400E8AA96 /* bullet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bullet.hpp; sourceTree = "<group>"; };
+		4F8409431CC68A1E00E8AA96 /* enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enemy.cpp; sourceTree = "<group>"; };
+		4F8409441CC68A1E00E8AA96 /* enemy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = enemy.hpp; sourceTree = "<group>"; };
+		4F8409481CC6B74400E8AA96 /* GatorPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GatorPlayer.png; sourceTree = "<group>"; };
+		4F84094C1CC6C25300E8AA96 /* Enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enemy.png; sourceTree = "<group>"; };
+		4F84094E1CC6C79C00E8AA96 /* Field.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Field.jpg; sourceTree = "<group>"; };
+		4F8409501CC6CB4500E8AA96 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		4F8409511CC6CB4500E8AA96 /* random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = random.hpp; sourceTree = "<group>"; };
+		4F8409531CC6FC9900E8AA96 /* GameOver1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver1.png; sourceTree = "<group>"; };
+		4F8409551CC7027E00E8AA96 /* football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = football.png; sourceTree = "<group>"; };
+		4F8409641CC7276F00E8AA96 /* StartScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartScreen.png; sourceTree = "<group>"; };
+		4F8BA4451CC96F9900081A46 /* UF_Fight_Song_with_lyrics_-_HD.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UF_Fight_Song_with_lyrics_-_HD.ogg"; sourceTree = "<group>"; };
+		4FA673721CFD28E8008B17FF /* HighScore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HighScore.txt; sourceTree = "<group>"; };
+		5B09399F1E5BF72700AAD63B /* font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8409051CC44AB800E8AA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8408FF1CC44AB800E8AA96 = {
+			isa = PBXGroup;
+			children = (
+				4F84090B1CC44AB800E8AA96 /* GatorGlory */,
+				4F84090A1CC44AB800E8AA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F84090A1CC44AB800E8AA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8409091CC44AB800E8AA96 /* GatorGlory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F84090B1CC44AB800E8AA96 /* GatorGlory */ = {
+			isa = PBXGroup;
+			children = (
+				4F84090E1CC44AB800E8AA96 /* ResourcePath.mm */,
+				4F8409101CC44AB800E8AA96 /* ResourcePath.hpp */,
+				4F8409111CC44AB800E8AA96 /* main.cpp */,
+				4F8409501CC6CB4500E8AA96 /* random.cpp */,
+				4F8409511CC6CB4500E8AA96 /* random.hpp */,
+				4F8409431CC68A1E00E8AA96 /* enemy.cpp */,
+				4F8409441CC68A1E00E8AA96 /* enemy.hpp */,
+				4F84093A1CC573F400E8AA96 /* entity.cpp */,
+				4F84093B1CC573F400E8AA96 /* entity.hpp */,
+				4F84093D1CC575D400E8AA96 /* player.cpp */,
+				4F8409401CC5CC1300E8AA96 /* bullet.cpp */,
+				4F8409411CC5CC1400E8AA96 /* bullet.hpp */,
+				4F84093E1CC575D400E8AA96 /* player.hpp */,
+				4F8409131CC44AB800E8AA96 /* Resources */,
+				4F84090C1CC44AB800E8AA96 /* Supporting Files */,
+			);
+			path = GatorGlory;
+			sourceTree = "<group>";
+		};
+		4F84090C1CC44AB800E8AA96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F84090D1CC44AB800E8AA96 /* GatorGlory-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F8409131CC44AB800E8AA96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F8409361CC562FD00E8AA96 /* Gator_logo.png */,
+				4F8BA4451CC96F9900081A46 /* UF_Fight_Song_with_lyrics_-_HD.ogg */,
+				4F8409481CC6B74400E8AA96 /* GatorPlayer.png */,
+				4FA673721CFD28E8008B17FF /* HighScore.txt */,
+				4F8409531CC6FC9900E8AA96 /* GameOver1.png */,
+				5B09399F1E5BF72700AAD63B /* font.ttf */,
+				4F8409641CC7276F00E8AA96 /* StartScreen.png */,
+				4F84094C1CC6C25300E8AA96 /* Enemy.png */,
+				4F8409551CC7027E00E8AA96 /* football.png */,
+				4F84094E1CC6C79C00E8AA96 /* Field.jpg */,
+				4F8409181CC44AB800E8AA96 /* sansation.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8409081CC44AB800E8AA96 /* GatorGlory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F84091E1CC44AB800E8AA96 /* Build configuration list for PBXNativeTarget "GatorGlory" */;
+			buildPhases = (
+				4F8409041CC44AB800E8AA96 /* Sources */,
+				4F8409051CC44AB800E8AA96 /* Frameworks */,
+				4F8409061CC44AB800E8AA96 /* Resources */,
+				4F8409071CC44AB800E8AA96 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GatorGlory;
+			productName = GatorGlory;
+			productReference = 4F8409091CC44AB800E8AA96 /* GatorGlory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8409001CC44AB800E8AA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = COP3503;
+				TargetAttributes = {
+					4F8409081CC44AB800E8AA96 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F8409031CC44AB800E8AA96 /* Build configuration list for PBXProject "GatorGlory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F8408FF1CC44AB800E8AA96;
+			productRefGroup = 4F84090A1CC44AB800E8AA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8409081CC44AB800E8AA96 /* GatorGlory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8409061CC44AB800E8AA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8409651CC7276F00E8AA96 /* StartScreen.png in Resources */,
+				4F8409491CC6B74400E8AA96 /* GatorPlayer.png in Resources */,
+				4F8409561CC7027E00E8AA96 /* football.png in Resources */,
+				4F84094F1CC6C79C00E8AA96 /* Field.jpg in Resources */,
+				4F84094D1CC6C25300E8AA96 /* Enemy.png in Resources */,
+				5B0939A01E5BF72700AAD63B /* font.ttf in Resources */,
+				4F8409191CC44AB800E8AA96 /* sansation.ttf in Resources */,
+				4F8409541CC6FC9900E8AA96 /* GameOver1.png in Resources */,
+				4F8409371CC562FD00E8AA96 /* Gator_logo.png in Resources */,
+				4FA673731CFD28E8008B17FF /* HighScore.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F8409071CC44AB800E8AA96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8409041CC44AB800E8AA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F84093F1CC575D400E8AA96 /* player.cpp in Sources */,
+				4F8409121CC44AB800E8AA96 /* main.cpp in Sources */,
+				4F8409521CC6CB4500E8AA96 /* random.cpp in Sources */,
+				4F8409451CC68A1E00E8AA96 /* enemy.cpp in Sources */,
+				4F8409421CC5CC1400E8AA96 /* bullet.cpp in Sources */,
+				4F84093C1CC573F400E8AA96 /* entity.cpp in Sources */,
+				4F84090F1CC44AB800E8AA96 /* ResourcePath.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F84091C1CC44AB800E8AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		4F84091D1CC44AB800E8AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		4F84091F1CC44AB800E8AA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GatorGlory/GatorGlory-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F8409201CC44AB800E8AA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GatorGlory/GatorGlory-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8409031CC44AB800E8AA96 /* Build configuration list for PBXProject "GatorGlory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F84091C1CC44AB800E8AA96 /* Debug */,
+				4F84091D1CC44AB800E8AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F84091E1CC44AB800E8AA96 /* Build configuration list for PBXNativeTarget "GatorGlory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F84091F1CC44AB800E8AA96 /* Debug */,
+				4F8409201CC44AB800E8AA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8409001CC44AB800E8AA96 /* Project object */;
+}
